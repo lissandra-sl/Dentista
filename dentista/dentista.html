@@ -1,0 +1,185 @@
+<html>
+     <head>
+         <style>
+             *{
+                 margin: 0;
+                 padding: 0;
+             }
+
+             .menu-superior{
+                 background-color: #628f08;
+                 width: 100%;
+                 height: 80px;
+             }
+
+             .logo{
+                 padding-top: 20px;
+                 padding-left: 20px;
+                 font-size: 30pt;
+                 font-weight: bold;
+                 color:#ffffff ;
+             }
+
+             footer{
+                 background-color: #2d747e;
+                 color: #fff;
+                 font-weight: bold;
+                 font-size: 12pt; 
+                 height: 450px;
+                 padding-top: 50px;
+                 padding-left: 130px;
+                 padding-bottom: 50px;
+                 display: flex;
+             }
+
+             .Mapa{
+                 margin-left: 200px;
+             }
+             .container{
+                 margin-left:  10%;
+                 margin-right: 10%;
+                 display: flex;
+             }
+             .btm-principal{
+                 padding-bottom: 20px; 
+             }
+             .btm-principal input{
+                 background-color:#628f08;
+                 color: #fff;
+                 border-radius: 10px;
+                 border: 1px solid #628f08;
+                 width: 100px; 
+                 height: 30px;
+             }
+             .input-radios{
+                 margin-top: 5px;
+             }
+             .input-type{
+                 margin-top: 5px;
+             }
+             .espacamento{
+                 margin-top: 10px;
+             }
+             .vitrine1{
+                float:left;
+                margin: 0%;
+             }
+             .vitrine2{
+                float:right;
+                margin: -115%;
+             }
+           
+
+
+         </style>
+     </head>
+     <body>
+        
+        <div class="menu-superior">
+            <p class="logo">Dentista</p>
+        </div>
+        <div class="container">  
+            <div class="vitrine1">
+        <form>
+        <div class="Nome"> 
+            <div class="espacamento">
+            <h4>Nome</h4>
+            <input type = "text">
+            </div>
+        </div>
+        <div class="Email">
+            <div class="espacamento">
+            <h4>Email</h4>
+            <input type = "email">
+            </div>
+        </div>
+        <div class="espacamento">
+        <div class="Tipo de atendimento">
+            <h4>Tipo de atendimento</h4> 
+            <div class="input-radios">
+            <input type="radio" name="atendimento" value="agendado"> Agendado
+            <input type="radio" name="atendimento" value="emergencia"> Emergência
+            <input type="radio" name="atendimento" value="encaixe"> Encaixe
+            </div>
+        </div>
+        </div>
+        <div class="espacamento">
+        <div class="Estado">
+            <h4>Estado</h4> 
+            <select name="estados-brasil">
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+            </select>
+        </div>
+        </div>
+        <div class="espacamento">
+        <div class="Assunto">
+            <h4>Assunto</h4> 
+            <input type = "text">
+        </div>
+        </div>
+        <div class="espacamento">
+        <div class="Endereço">
+            <h4>Endereço</h4> 
+            <input type = "text">
+        <div class="espacamento">
+            <h4>Toma algum medicamento? </h4>
+            <div class="input-type">
+            <input type="checkbox" name="medicamento" value="Sim"> Sim
+            <input type="checkbox" name="medicamento" value="Nao"> Nao
+            </div>
+        </div>
+        </div>
+        <div class="btm-principal">
+            <input type = "submit">
+        </div>
+        <div class="vitrine2">
+        <div class="imagem">
+            <img src="dentist-1639683_640.jpg" width="300px" height="280px" style="border:3px solid #2f4d0d">
+        </div>
+        </div>
+    </div>
+    </form>
+        </div>
+        </div>
+    <footer>
+        <div class="Informacoes">
+            <div class="Endereco">
+                Rua Joaquim Porto, n 456 - centro
+            </div>
+            <div class="Contatos">
+                <p>dentista@gmail.com</p>
+                <p>(51) 99657-8432</p>
+            </div>
+        </div>
+        <div class="Mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3478.1395933053927!2d-49.73440788604046!3d-29.33690448214521!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x952269a098eaab9f%3A0xbce233bb5542d546!2sR.%20Joaquim%20P%C3%B4rto%20-%20Torres%2C%20RS%2C%2095560-000!5e0!3m2!1spt-BR!2sbr!4v1627493628484!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </footer>
+     </body>
+ </html>
